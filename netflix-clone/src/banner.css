@@ -1,0 +1,57 @@
+.Banner {
+  color: white;
+  object-fit: contain;
+  max-height: 700px;
+}
+
+.bannerContents {
+  margin-left: 50px;
+  padding-top: 120px;
+  height: 150px;
+}
+
+.bannerTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+}
+
+.bannerDesc {
+  width: 45 rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+  font-size: 1rem;
+  max-width: 370px;
+  height: 80px;
+}
+
+.bannerButton {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.3vw;
+  padding-left: 20px;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 10px;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.bannerButton:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.bannerBottom {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0.61),
+    #111
+  );
+  height: 15rem;
+}
